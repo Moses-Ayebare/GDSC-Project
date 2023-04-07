@@ -1,0 +1,73 @@
+.dashboard-container {
+  padding: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.dashboard-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.dashboard-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #68f83c;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.dashboard-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.logout-button {
+  display: inline-block;
+  background-color: #EA4335;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #c53527;
+}
+.event-card-heading{
+  font-family: sans-serif;
+  color: #68f83c;
+}
+.event-card-text{
+  font-family: cursive;
+  color:#f5f83c;
+}
+.project-card-heading{
+  font-family: sans-serif;
+  color: #68f83c;
+}
+.project-card-text{
+  color:#f5f83c;
+  font-family: cursive;
+}
+.paragraph{
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-style: italic;
+  color:#f5f83c;
+}
+.event-card-content{
+  background-attachment: fixed;
+}
+.event-card{
+  background-color: #201c1c;
+}
+.project-card{
+  background-color: #201c1c;
+}

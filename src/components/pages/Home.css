@@ -1,0 +1,242 @@
+/* 
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .heading {
+    font-size: 56px;
+    margin-top: 40px;
+    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 255, 0.61);
+
+  }
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/dsc-logo-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4; 
+    z-index: -1;
+  }
+  
+  .image {
+    width: 80%;
+    height: 70%;
+    margin-top: 40px;
+  }
+  
+  .text {
+    font-size: 24px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .button {
+    font-size: 24px;
+    margin: auto;
+    margin-right: 30px;
+    color:white;
+    font-style: bold;
+    background-color: #0d6efd;
+    outline:none;
+}
+.join-btn {
+  font-size: 1.8rem;
+   color: #0af31d;
+   text-decoration: none;
+   margin-top: 1rem;
+   border: none;
+   background: none;
+   cursor: pointer;
+ }
+ .join-btn:hover {
+   color: #0707f7;
+ } */
+
+ .container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  padding-right: 40px;
+}
+
+.hero-heading {
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  font-family:cursive;
+  font-style: oblique;
+  
+}
+
+.hero-text {
+  font-size: 24px;
+    margin-top: 40px;
+    font-family: cursive;
+  line-height: 1.5;
+  margin-bottom: 30px;
+font-style: italic;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #EA4335;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: #c53527;
+}
+
+.hero-image {
+  position: absolute;
+    top: 20;
+    left: 100;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    opacity: 0.5; 
+    z-index: -1;
+
+}
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.featured-section {
+  flex-basis: 48%;
+}
+
+.featured-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.event-card {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.event-card-image {
+  flex-basis: 40%;
+  margin-right: 30px;
+}
+
+.event-card-image img {
+  width: 100%;
+}
+
+.event-card-content {
+  flex-basis: 60%;
+}
+
+.event-card-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.event-card-button {
+  display: inline-block;
+  background-color: #EA4335;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.event-card-button:hover {
+  background-color: #c53527;
+}
+
+.project-card {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.project-card-image {
+  flex-basis: 40%;
+  margin-right: 30px;
+}
+
+.project-card-image img {
+  width: 100%;
+}
+
+.project-card-content {
+  flex-basis: 60%;
+}
+
+.project-card-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project-card-button {
+  display: inline-block;
+  background-color: #EA4335;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-card-button:hover {
+  background-color: #c53527;
+}
